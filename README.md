@@ -1,6 +1,10 @@
 # cranfly
 Cloud Native Container Image Distribution mesh for kubernetes
 
+![logo](/Users/xiaods/Documents/Code/cranfly/logo.png)
+
+
+
 **Feature:**
 
 1. fasting deliver image to k8s cluster from your various image registry.
