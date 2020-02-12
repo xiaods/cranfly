@@ -6,11 +6,12 @@ Cloud Native Container Image Distribution mesh for kubernetes
 
 **Feature:**
 
-1. fasting deliver image to k8s cluster from your various image registry.
-2. cloud native architecture for deployment mesh solution.
-3. support hot reload image to host in app production deliver cycle.(CICD)
-4. native https download, naive and native download image layer tars without use p2p protocol for light migration effort.
-5. kubernetes operator development style.
+1. fasting deliver image to k8s cluster and seamless integrate your various image registry.
+2. cloud native architecture for image distribution mesh setup.
+3. support prefer warm up image on node host in app production deliver
+   cycle.(CICD).
+4. naive and native deliver image layer tars with embeded p2p tracker.
+5. smart schedule for app deliver and deployment with labels.
 
 
 
@@ -18,5 +19,6 @@ Cloud Native Container Image Distribution mesh for kubernetes
 
 totally rust project.
 
+**
 
 This is the way  - The Mandalorian
