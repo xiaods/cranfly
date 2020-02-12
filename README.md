@@ -1,8 +1,7 @@
 # cranfly
 Cloud Native Container Image Distribution mesh for kubernetes
 
-![logo](/Users/xiaods/Documents/Code/cranfly/logo.png)
-
+![logo](./logo.png)
 
 
 **Feature:**
