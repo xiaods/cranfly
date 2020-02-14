@@ -19,6 +19,14 @@ Cloud Native Container Image Distribution mesh for kubernetes
 
 totally rust project.
 
-**
+**References**
+
+- [ImageWolf](https://github.com/ContainerSolutions/ImageWolf)
+- [trow](https://github.com/ContainerSolutions/trow)
+- [kraken](https://github.com/uber/kraken)
+
+
+
+**Notes**
 
 This is the way  - The Mandalorian
