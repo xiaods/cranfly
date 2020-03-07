@@ -1,30 +1,32 @@
-# cranfly
+# cranfly(very early development)
 Cloud Native Container Image Distribution mesh for kubernetes
 
-![logo](./logo.png)
+![logo](./img/logo.png)
 
 
 **Feature:**
+1. seamlessly integrate with trow(rust version image registry), harbor UI(image management)
+2. cloud-native architecture for image registry
+3. support prefers warm-up image on node host in the app production deliver cycle. (CICD).
+4. naive and native deliver image layer tars with embedded p2p tracker.
+5. smart schedule for app delivery and deployment with labels.
 
-1. fasting deliver image to k8s cluster and seamless integrate your various image registry.
-2. cloud native architecture for image distribution mesh setup.
-3. support prefer warm up image on node host in app production deliver
-   cycle.(CICD).
-4. naive and native deliver image layer tars with embeded p2p tracker.
-5. smart schedule for app deliver and deployment with labels.
+**Architechture:**
 
-
+![](./img/cranfly-arch.png)
 
 **How to Development:**
 
-totally rust project.
+```rust
+cd cranfly
+cargo run
+```
 
 **References**
 
 - [ImageWolf](https://github.com/ContainerSolutions/ImageWolf)
 - [trow](https://github.com/ContainerSolutions/trow)
 - [kraken](https://github.com/uber/kraken)
-
 
 
 **Notes**
