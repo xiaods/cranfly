@@ -5,8 +5,8 @@ Cloud Native Container Image Distribution Mesh for Kubernetes
 
 
 **Feature/todo list:**
-- [] handle kubelet pull OCI image request, and use P2P feature to cache image.
-- [] image distribution mesh UI to manage worklaod pull rules for hosts.
+- [ ] handle kubelet pull OCI image request, and use P2P feature to cache image.
+- [ ] image distribution mesh UI to manage worklaod pull rules for hosts.
 
 **Architechture:**
 
